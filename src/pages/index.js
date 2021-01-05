@@ -1,5 +1,10 @@
 import React from "react"
+import ProjectsList from "../components/ProjectsList"
 
-export default function Home() {
-  return <div>Hello world!</div>
+export default () => {
+  return (
+    <>
+      <ProjectsList />
+    </>
+  )
 }
